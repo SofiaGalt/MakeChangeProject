@@ -171,9 +171,6 @@ public class MakeChange {
 		int nickels = (int)(change / 5 );
 		change -= nickels * 5;
 		int pennies = change;
-		System.out.println("DEV change: " + change);
-		
-		change -= pennies;
 		
 		System.out.print("Your change is:");
 		
